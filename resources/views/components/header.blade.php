@@ -7,11 +7,11 @@
     </form>
     <ul class="navbar-nav navbar-right">
         <li class="dropdown">
-            <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+            <a href="#" data-toggle="dropdown"
+                class="nav-link dropdown-toggle nav-link-lg nav-link-user">
 
-                <img alt="image"
-                    src="{{ auth()->user()->avatar ? Storage::url(auth()->user()->avatar) : asset('img/avatar/avatar-4.png') }}"
-                    class="rounded-circle mr-1">
+                <img alt="image" src="{{ auth()->user()->avatar ? Storage::url(auth()->user()->avatar)
+                : asset('img/avatar/avatar-4.png') }}" class="rounded-circle mr-1">
 
                 <div class="d-sm-none d-lg-inline-block">Hi, {{ auth()->user()->name }}</div>
             </a>
@@ -24,12 +24,12 @@
                 <div class="dropdown-divider"></div>
                 <a href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
                     class="dropdown-item has-icon text-danger">
+
                     <i class="fas fa-sign-out-alt"></i> Logout
+
                 </a>
-                <form id="logout-form" action="{{ route('logout') }}" method="post">
-                    @csrf
-                </form>
+                <form id="logout-form" action="{{ route('logout') }}" method="post">@csrf</form>
             </div>
         </li>
-</ul>
+    </ul>
 </nav>
