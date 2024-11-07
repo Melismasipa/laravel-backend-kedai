@@ -112,7 +112,7 @@ in front of you. Stay focused on your goals, make learning a daily habit and nev
                                     <div class="row">
                                         <div class="form-group col-12">
                                             <label>Bio</label>
-                                            <textarea class="form-control summernote-simple">Ujang maman is a superhero name in <b>Indonesia</b>, especially in my family. He is not a fictional character but an original hero in my family, a hero for his children and for his wife. So, I use the name as a user in this template. Not a tribute, I'm just bored with <b>'John Doe'</b>.</textarea>
+                                            <textarea class="form-control summernote-simple">. "Petualangan terbesar yang kau bisa lakukan adalah memperjuangkan mimpimu menjadi kenyataan." - Oprah Winfrey</b>.</textarea>
                                         </div>
                                     </div>
                                     <div class="row">
