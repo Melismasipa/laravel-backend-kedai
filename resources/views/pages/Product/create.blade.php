@@ -36,8 +36,7 @@
                         <div class="card-body">
                             <div class="form-group">
                                 <label>Name</label>
-                                <input type="text"
-                                    class="form-control @error('name') is-invalid @enderror"
+                                <input type="text" class="form-control @error('name') is-invalid @enderror"
                                     name="name">
                                 @error('name')
                                     <div class="invalid-feedback">
@@ -47,8 +46,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Description</label>
-                                <input type="description"
-                                    class="form-control @error('description') is-invalid @enderror"
+                                <input type="description" class="form-control @error('description') is-invalid @enderror"
                                     name="description">
                                 @error('description')
                                     <div class="invalid-feedback">
@@ -58,8 +56,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Price</label>
-                                <input type="number"
-                                    class="form-control @error('price') is-invalid @enderror"
+                                <input type="number" class="form-control @error('price') is-invalid @enderror"
                                     name="price">
                                 @error('price')
                                     <div class="invalid-feedback">
@@ -69,8 +66,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Stock</label>
-                                <input type="number"
-                                    class="form-control @error('stock') is-invalid @enderror"
+                                <input type="number" class="form-control @error('stock') is-invalid @enderror"
                                     name="stock">
                                 @error('stock')
                                     <div class="invalid-feedback">
@@ -83,11 +79,8 @@
                             <div class="form-group">
                                 <label>Product Image</label>
                                 <div class="custom-file">
-                                    <input type="file"
-                                        class="custom-file-input @error('image') is-invalid @enderror"
-                                        id="customFile"
-                                        name="image"
-                                        required>
+                                    <input type="file" class="custom-file-input @error('image') is-invalid @enderror"
+                                        id="customFile" name="image" required>
                                     <label class="custom-file-label" for="customFile">Choose file</label>
                                     @error('image')
                                         <div class="invalid-feedback">

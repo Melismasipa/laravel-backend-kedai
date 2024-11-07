@@ -9,5 +9,5 @@ class ProfilController extends Controller
     public function index(Request $request){
         return view('pages.auth.profil.index');
    } //
-   
+
 }
